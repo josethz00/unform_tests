@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family= Roboto: 400.500.700i & display = swap');
+
+*{
+    outline: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font: 400 14px Roboto, sans-serif;
+    background-color: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+
+}
+input, button, textarea{
+    font: 400 18px Roboto, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+form input{
+    width: 100%;
+    height: 60px;
+    color: #333333;
+    border: 1px solid #dcdce6;
+    border-radius: 10px;
+    padding: 20px;
+}
+form textarea{
+    width: 100%;
+    min-height: 140px;
+    color: #333333;
+    border: 1px solid #dcdce6;
+    border-radius: 10px;
+    padding: 14px 20px;
+    line-height: 20px;
+    resize: vertical;
+}
+.back-link{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: opacity  0.2s;
+}
+.back-link:hover{
+    opacity: 0.8;
+    
+}
+.back-link svg{
+    margin-right: 11px;
+}
